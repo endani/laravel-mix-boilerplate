@@ -1,38 +1,35 @@
-# Base para trabajar con SASS, ES6 y mucho más. 
-[Laravel Mix](https://github.com/JeffreyWay/laravel-mix) nos permite trabajar con estás tecnologías y muchas más de manera simple y prácticamente sin configuración.
+# Base to work with SASS, ES6 and much more.
+[Laravel Mix](https://github.com/JeffreyWay/laravel-mix) allows us to work with these technologies and many more in a simple way and with practically no configuration.
 
-### Requisitos
-Para trabajar con laravel mix, es necesario tener instalado [Node.js y NPM](https://nodejs.org/en/)
-Puedes verificar si tienes instalado npm ejecutando este comando: 
+### Requirements
+To work with this boilerplate, it is necessary to have installed [Node.js and NPM](https://nodejs.org/en/)
+You can check if you have npm installed by running this command:
 ```bash
 npm -v
 ```
-Lo que debiese retorar algo como `6.14.0`
+Which should return something like `6.14.0`
 
-## Instalación
-Bajar el repositorio e instalar laravel mix usando npm 
+## Installation
+Download the repository and install laravel mix boilerplate using npm
 ```bash
-git clone https://github.com/endani/laravel-mix-boilerplate mi-proyecto
-cd mi-proyecto
+git clone https://github.com/endani/laravel-mix-boilerplate my-project
+cd my-project
 npm install
 ```
-Eso es todo. De ahora en adelante, ya puedes compilar tus assets. 
-Recuerda que `npm install` puede tardar bastante en terminar. Es normal, no te preocupes.
+That is all. From now on, you can now compile your assets.
+Remember that `npm install` can take a long time to finish. It is normal, don't worry.
 
-Luego, solo debes ejecutar este comando para compilar
+Then you just need to run this command to compile
 ```bash
 npm run dev
 ```
 
-### Watch (compilar automáticamente al guardar)
-Para que laravel mix compile automáticamente cuando realizas un cambio en el SASS, puedes correr este comando: 
+### Watch (automatically compile on save)
+To have the laravel mix boilerplate automatically compile when you make a change to the SASS, you can run this command:
 ```bash
 npm run watch
 ```
 
-#### Estructura
+#### Structure
 
-En el archivo `webpack.mix.js` está la configuración que le indica a Laravel mix que compilar y en donde. 
-
-
-
+In the `webpack.mix.js` file is the configuration that tells Laravel mix what to compile and where.
