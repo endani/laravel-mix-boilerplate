@@ -1,4 +1,4 @@
-# Base to work with SASS, ES6 and much more.
+# Base to work with Laravel Mix, SASS and ES6.
 [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) allows us to work with these technologies and many more in a simple way and with practically no configuration.
 
 ### Requirements
