@@ -11,7 +11,7 @@
     "laravel-mix": "^6.0.41",
     "node-sass": "^7.0.1",
     "resolve-url-loader": "^5.0.0",
-    "sass-loader": "^12.4.0"
+    "sass-loader": "^13.2.0"
   },
   "scripts": {
     "dev": "npm run development",
